@@ -6,6 +6,10 @@ This project was created by Michael Reyfman in November 2017. It is a single-pag
 ### Demo
 Visit [heroku page](http://react-weather-spa.herokuapp.com/) to try this app without downloading the source code!
 
+### Screenshots
+![alt text](https://i.imgur.com/hjDDo7K.png)
+![alt text](https://i.imgur.com/tfNcvhl.png)
+
 ### Installation
 `git clone https://github.com/michael-reyfman/react-weather-spa.git`
 `npm install`

@@ -11,8 +11,11 @@ Visit [heroku page](http://react-weather-spa.herokuapp.com/) to try this app wit
 ![alt text](https://i.imgur.com/tfNcvhl.png)
 
 ### Installation
-`git clone https://github.com/michael-reyfman/react-weather-spa.git`  `npm install`  `npm start`
-
+```
+git clone https://github.com/michael-reyfman/react-weather-spa.git
+npm install
+npm start
+```
 ### Technologies used
   * create-react-app boilerplate
   * redux for state management

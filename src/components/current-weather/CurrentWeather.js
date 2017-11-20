@@ -10,7 +10,7 @@ const CurrentWeather = (currentWeatherParams) => {
     };
     return(
         <div className="current-weather" style={bgStyle}>
-            <WeatherIcon id={params.iconId}/>
+            <WeatherIcon id={params.iconId} size="big"/>
             <p className="city">{params.cityName}, {params.country}</p>
             <p className="curr-date">{params.date}</p>
             <p className="curr-temp">{Math.round(params.temperature)}°C</p>

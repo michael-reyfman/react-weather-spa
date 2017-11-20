@@ -13,34 +13,35 @@ import cloudlightning from '../../weather-icons/Cloud-Lightning.svg';
 import snow from '../../weather-icons/Cloud-Snow.svg';
 import cloudfog from '../../weather-icons/Cloud-Fog.svg';
 
-const WeatherIcon = (id) => {
-    switch(id.id) {
+const WeatherIcon = (props) => {
+    console.log(props);
+    switch(props.id) {
         case '01d':
             return (
                 <ReactSVG
                     path={sun}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '01n':
             return (
                 <ReactSVG
                     path={moon}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size} moon-icon`}
                 />
             );
         case '02d':
             return (
                 <ReactSVG
                     path={cloudsun}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '02n':
             return (
                 <ReactSVG
                     path={cloudmoon}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '03d':
@@ -50,7 +51,7 @@ const WeatherIcon = (id) => {
             return (
                 <ReactSVG
                     path={cloud}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '09d':
@@ -58,21 +59,21 @@ const WeatherIcon = (id) => {
             return (
                 <ReactSVG
                     path={rain}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '10d':
             return (
                 <ReactSVG
                     path={rainsun}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '10n':
             return (
                 <ReactSVG
                     path={rainmoon}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '11d':
@@ -80,7 +81,7 @@ const WeatherIcon = (id) => {
             return (
                 <ReactSVG
                     path={cloudlightning}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '13d':
@@ -88,7 +89,7 @@ const WeatherIcon = (id) => {
             return (
                 <ReactSVG
                     path={snow}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         case '50d':
@@ -96,14 +97,14 @@ const WeatherIcon = (id) => {
             return (
                 <ReactSVG
                     path={cloudfog}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
         default:
             return (
                 <ReactSVG
                     path={sun}
-                    className="weather-icon-big"
+                    className={`weather-icon-${props.size}`}
                 />
             );
     }

@@ -1,0 +1,10 @@
+export const SET_NEW_CITY = 'SET_NEW_CITY';
+export const SHOW_WEATHER = 'SHOW_WEATHER';
+
+export const GET_CURRENT_WEATHER = 'GET_CURRENT_WEATHER';
+export const GET_FIVE_DAY_FORECAST = 'GET_FIVE_DAY_FORECAST';
+
+export const BEGIN_QUERY = 'BEGIN_QUERY';
+export const QUERY_FINISHED = 'QUERY_FINISHED';
+
+export const RESET = 'RESET';

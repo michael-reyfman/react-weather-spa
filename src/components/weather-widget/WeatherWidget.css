@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.weather-widget {
+    margin: 0 auto;
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    min-width: 320px;
+    text-align: left;
+}
+
+.current-weather {
+    position: relative;
+    min-height: 30vh;
+    color: #FFFFFF;
+}
+
+.weather-icon-big {
+    position: absolute;
+    fill: white;
+    height: 85%;
+    width: auto;
+    right: -20px;
+    top: 15px;
+}
+
+.city {
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.curr-date {
+    position: absolute;
+    font-size: 0.9em;
+    top: 5px;
+    padding-top: 3%;
+    right: 10px;
+}
+
+.curr-temp {
+    font-size: 5em;
+    padding-left: 5%;
+}
+
+.description {
+    font-size: 1.2em;
+    padding-left: 5%;
+}
+
+.humidity {
+    position: absolute;
+    right: 10px;
+    top: 75%;
+    font-weight: 600;
+}
+
+.wind {
+    position: absolute;
+    font-weight: 600;
+    right: 10px;
+    top: 85%;
+}
+
+.five-day-forecast {
+    position: relative;
+}
+
+.five-day-forecast ul {
+    list-style-type: none;
+}
+
+.five-day-forecast li {
+    margin-left: -40px;
+    padding-top: 2%;
+    padding-left: 5%;
+    color: #000000;
+    height: 3em;
+}
+
+.five-day-forecast li:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+.five-day-forecast li:nth-child(even) {
+    background-color: #BDBDBD;
+}
+
+.forecast-icon {
+    height: 100%;
+}
+
+.forecast-description {
+    margin-left: 8px;
+}
+
+.forecast-temperatures {
+    position: absolute;
+    right: 10px;
+}

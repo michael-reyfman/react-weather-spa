@@ -1,0 +1,13 @@
+.city-input-form {
+    margin: 0 auto;
+    margin-top: 1%;
+    width: 40%;
+    min-width: 300px;
+}
+
+.city-input-form>.form-child {
+}
+
+.show-widget-button {
+    height: 100%;
+}
